@@ -6,8 +6,8 @@
 
 .bgImage {
     background-image: url(./images/backgroundImage.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -16,22 +16,65 @@
 
 .container {
     background-color: #4a4a4a;
-    border-radius: 5px;
+    box-shadow: 10px 10px 20px #131111;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.displayBox {
+    background-color: transparent;
+    width: 100%;
     padding-top: 0.5rem;
 }
 
 .display {
     background-color: #fff;
-    padding: 2rem;
+    box-shadow: inset -10px -10px 20px rgb(242, 237, 237);
+    width: 100%;
+    border-color: transparent;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    color: #000;
+    border-radius: 15px;
+    text-align: end;
 }
 
-.buttons {
-    padding: 5px 0;
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+.row2,
+.row3,
+.row4,
+.row5 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#equals {
+    width: 110px;
 }
 
 .btn {
     background-color: transparent;
-    border-color: transparent;
+    border: 1px solid #4a4a4a;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #121212;
     color: #fff;
-    padding: 10px 15px;
+    width: 50px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #2b2b2b;
+    border: 1px solid #2b2b2b;
+}
+
+.btn:active {
+    box-shadow: 0 5px #2b2b2b;
+    transform: translateY(4px);
 }
