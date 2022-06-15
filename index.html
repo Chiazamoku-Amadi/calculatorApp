@@ -15,36 +15,48 @@
 <body>
     <div class="bgImage">
         <section class="container">
-            <div class="display"></div>
+            <div class="displayBox">
+                <input id="display" class="display" type="text" placeholder="0">
+            </div>
             <div class="buttons">
                 <div class="row1">
-                    <button class="num7 btn">7</button>
-                    <button class="num8 btn">8</button>
-                    <button class="num9 btn">9</button>
-                    <button class="add btn">+</button>
+                    <button id="powerOff" class="btn">Off</button>
+                    <button id="powerOn" class="btn">On</button>
                 </div>
                 <div class="row2">
-                    <button class="num4 btn">4</button>
-                    <button class="num5 btn">5</button>
-                    <button class="num6 btn">6</button>
-                    <button class="subtract btn">-</button>
+                    <button id="clear" class="btn">C</button>
+                    <button id="del" class="btn">DEL</button>
+                    <button id="modulus" class="btn">%</button>
+                    <button id="add" class="btn">+</button>
                 </div>
                 <div class="row3">
-                    <button class="num1 btn">1</button>
-                    <button class="num2 btn">2</button>
-                    <button class="num3 btn">3</button>
-                    <button class="multiply btn">*</button>
+                    <button id="num7" class="btn">7</button>
+                    <button id="num8" class="btn">8</button>
+                    <button id="num9" class="btn">9</button>
+                    <button id="subtract" class="btn">-</button>
                 </div>
                 <div class="row4">
-                    <button class="clear btn">C</button>
-                    <button class="num0 btn">0</button>
-                    <button class="equals btn">=</button>
-                    <button class="divide btn">/</button>
+                    <button id="num4" class="btn">4</button>
+                    <button id="num5" class="btn">5</button>
+                    <button id="num6" class="btn">6</button>
+                    <button id="multiply" class="btn">*</button>
+                </div>
+                <div class="row5">
+                    <button id="num1" class="btn">1</button>
+                    <button id="num2" class="btn">2</button>
+                    <button id="num3" class="btn">3</button>
+                    <button id="divide" class="btn">/</button>
+                </div>
+                <div class="row6">
+                    <button id="point" class="btn">.</button>
+                    <button id="num0" class="btn">0</button>
+                    <button id="equals" class="btn">=</button>
                 </div>
             </div>
         </section>
 
     </div>
+    <script src="./script.js"></script>
 </body>
 
 </html>
